@@ -1,0 +1,26 @@
+{
+  "name": "odsc-2017",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "http://mfviz.com/odsc-2017/",
+  "dependencies": {
+    "@observablehq/runtime": "^4.0.1",
+    "d3": "^4.11.0",
+    "delay-transitions": "https://api.observablehq.com/@mkfreeman/delay-transitions.tgz",
+    "gh-pages": "^1.0.0",
+    "material-ui": "^0.19.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.14",
+    "the-simulation-behind-beeswarm-plots": "https://api.observablehq.com/@mkfreeman/the-simulation-behind-beeswarm-plots.tgz"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "deploy": "npm run build&&gh-pages -d build"
+  }
+}
